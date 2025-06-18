@@ -1,0 +1,176 @@
+:root {
+  --primary-color: #47B581;
+  --bg-color: #fff0ca;
+  --text-color: #3E2511;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 18px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  font-family: 'Nerko One', cursive;
+  font-weight: 400;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 66px;
+  line-height: 66px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 30px 0;
+}
+
+header .container {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+.logo {
+  height: 120px;
+}
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+nav a {
+  font-family: 'Nerko One', cursive;
+  font-weight: 400;
+  font-size: 26px;
+  color: var(--text-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 100px;
+  transition: background 0.2s;
+}
+a.btn {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-family: 'Nerko One', cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+section {
+  padding: 100px 0;
+}
+section a.btn {
+  font-size: 24px;
+  display: inline-block;
+}
+
+section.with-image {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+section.with-image img {
+  max-width: 450px;
+}
+
+section#auberge {
+  text-align: center;
+}
+
+.auberge-cards {
+  display: flex;
+  gap: 60px;
+  margin-top: 50px;
+}
+.auberge-card img {
+  margin-bottom: 30px;
+}
+
+section#team {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  padding-top: 0;
+}
+.team-member {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.team-member h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 15px;
+  text-transform: none;
+}
+.team-member img {
+  display: block;
+}
+.team-member div {
+  font-size: 14px;
+}
+
+section#jaca {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+img.jaca {
+  width: 130px;
+}
+
+footer {
+  padding: 30px 0;
+  font-size: 16px;
+  background: #FFE0A2;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-left {
+  display: flex;
+  gap: 40px;
+}
+.footer-left-content, .footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-right {
+  align-items: flex-end;
+  gap: 10px;
+}
+.footer-right a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+.logo-footer {
+  height: 80px;
+}
+

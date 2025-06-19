@@ -72,6 +72,9 @@ header .container {
 }
 .logo {
   height: 120px;
+  @media (max-width: 1200px) {
+    height: 90px;
+  }
 }
 nav {
   display: flex;
@@ -102,6 +105,9 @@ a.btn {
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
+  @media (max-width: 1200px) {
+    font-size: 24px;
+  }
 }
 
 section {
